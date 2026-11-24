@@ -1,8 +1,7 @@
 /* Privacy-friendly analytics (GoatCounter: no cookies, no cross-site tracking).
-   SETUP: sign up free at https://www.goatcounter.com, choose a site code, and paste it below.
-   Until GC_CODE is set, nothing loads. Even once set, it only loads AFTER the visitor accepts the cookie banner. */
+  Once set, it only loads AFTER the visitor accepts the cookie banner. */
 (function(){
-  var GC_CODE="";   // e.g. "luyandankosi" -> https://luyandankosi.goatcounter.com
+ var GC_CODE="luyandankosi";   // e.g. "luyandankosi" -> https://luyandankosi.goatcounter.com
   var loaded=false;
   function load(){
     if(!GC_CODE||loaded)return;loaded=true;
